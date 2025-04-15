@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1000px) {
+    
+    section{
+        width: 1000px;
+        height: 400px;
+    }
+
+    div#imagem{
+        margin-left: 500px;
+        background-image: url('metal.jpg');
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 400px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    #formulario{
+        position: relative;
+    }
+
+    h1{
+        position: absolute;
+        top: -380px;
+        left: 184px;
+    }
+
+    p{
+        position: absolute;
+        top: -300px;
+        left: 5px;
+    }
+
+    br{
+        display: block;
+    }
+
+    #iemail{
+        position: absolute;
+        top: -243px;
+        left: 55px;
+        background-color: rgb(222, 247, 255);
+        border-radius: 5px;
+        padding: 8px;
+        width: 418px;
+
+    }
+    
+    #isenha{
+        position: absolute;
+        top: -202px;
+        left: 55px;
+        background-color: rgb(222, 247, 255);
+        border-radius: 5px;
+        padding: 8px;
+        width: 418px;
+    }
+
+    #entrar{
+        position: absolute;
+        top: -160px;
+        left: 47px;
+        width: 437px;
+        background-color: var(--cor001);
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    #esqueci{
+        position: absolute;
+        top: -114px;
+        left: 47px;
+        width: 437px;
+        background-color: white;
+        color: var(--cor001);
+        text-align: center;
+        padding: 10px;
+    }
+
+    }
